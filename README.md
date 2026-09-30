@@ -57,7 +57,7 @@ g++ -Wall -Wextra -std=c++17 main.cpp -o calculadora
 <!-- Pega aquí lo que muestra tu programa en pantalla con una división donde primero escribes 0 como segundo número. -->
 
 ```
-_____
+_____ h
 ```
 
 ## 8. De la receta al código (Fase 3)
