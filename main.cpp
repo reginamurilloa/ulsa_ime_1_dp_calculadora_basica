@@ -49,13 +49,13 @@ int main() {
 
     // Paso 6: SOLO si la opción es división, ¿qué haces si b es 0?
     // TODO
-
-    if (opcion ==4) {
+      if (opcion ==4) {
         while (b == 0) {
             std::cout << "Error: No se puede dividir entre cero.\n";
             b = leerDecimal("Introduce un segundo número distinto de cero: ");
         }
     }
+  
 
     // Paso 7: decisión múltiple
     // TODO: switch (opcion) { case 1: ... break; ... default: ... }
@@ -76,6 +76,9 @@ int main() {
         case 4:
             resultado = a / b;
             simbolo = '/';
+            break;
+        default:
+            std::cout << "Opción inválida.\n";
     }
 
 
